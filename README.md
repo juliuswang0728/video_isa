@@ -20,5 +20,5 @@ An example to run [compute_globalSaliency_video2img_onlymr.m](./compute_globalSa
 ```
 which evaluates `video1` with `temporal widths` of the first and second ISA layers being `7`, and `sigma` used in spatial prior being `0.1`. Results will be stored in [./results](./results) (We have provided some results there).
 
-![some result](./results/3_7_7_00009.png)
+![some result](./results/16_7_7_00043.png)
 From top to bottom, left to right: local saliecy only, global saliency only, combined saliency with spatial prior, ground-truth fixation.
