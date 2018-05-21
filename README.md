@@ -18,7 +18,7 @@ An example to run [compute_globalSaliency_video2img_onlymr.m](./compute_globalSa
 ```
 	compute_globalSaliency_video2img_onlymr(1, 7, 7, 0.1)
 ```
-which evaluates `video1` with `temporal widths` of the first and second ISA layers being `7`, and `sigma` used in spatial prior being `0.1`. Results will be stored in [./results](./results) (We have provided some results there).
+which evaluates `video1` with `temporal widths` of the first and second ISA layers being `7`, and `sigma` used in spatial prior being `0.1`. Frame-by-frame results will be stored in [./results](./results) (We have provided some results there).
 
 <p align="center">
 <img src="./results/16_7_7_00043.png" width="480">
