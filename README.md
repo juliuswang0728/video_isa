@@ -1,7 +1,7 @@
 
 The results reported in [J. Wang et al. Fixation Prediction in Videos using Unsupervised Hierarchical Features. CVPRW'17.](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w37/papers/Wang_Fixation_Prediction_in_CVPR_2017_paper.pdf) was generated with [compute_globalSaliency_video2img_onlymr.m](./compute_globalSaliency_video2img_onlymr). 
 
-One can find some pre-trained temporal ISA bases at [./bases](./bases), which were trained on random Youtube videos. Frame-by-frame images acquired from videos in ASCMN dataset are required to make evaluation, which can be downloaded at [this link to Google's drive](https://drive.google.com/open?id=16HuPcK-5YQiMMIRmMULTLqMrS5FgzDml). Please unzip the downloaded .zip file, and place those files at [./videos](./videos), i.e.
+One can find some pre-trained temporal ISA bases at [./bases](./bases), which were trained on random Youtube videos. Frame-by-frame images acquired from videos in ASCMN dataset ([can be downloaded here](https://drive.google.com/open?id=16HuPcK-5YQiMMIRmMULTLqMrS5FgzDml)) are required to make evaluation. Please unzip the downloaded .zip file, and place those files at [./videos](./videos), i.e.
 
 ```
 	./videos
